@@ -366,7 +366,7 @@ div.gallery img {
   .cafecompu {
     width: 100%;
     float: right;
-    background-image: url(./img/funciona.jpg);
+    background-image: url(../img/funciona.jpg);
     background-attachment: fixed;
     height: 400px;
     background-size: 100%;
