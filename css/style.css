@@ -1,0 +1,1299 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+}
+
+.computadorafondo {
+  width: 100%;
+  height: auto;
+  font-family: "Open Sans Light";
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 100%;
+    margin: 6px 0;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 100%;
+    margin: 6px 0;
+  }
+}
+@media only screen and (max-width: 250px) {
+  .responsive {
+    width: 100%;
+  }
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.comienza {
+  position: absolute;
+  top: 10px;
+  color: white;
+  font-size: 75px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 80%;
+  height: 500px;
+  margin: 100px;
+  text-align: center;
+  padding: 10%;
+}
+
+@media only screen and (max-width: 1150px) {
+  .comienza {
+    width: 80%;
+    margin: 80px;
+    font-size: 70px;
+    height: 70%;
+    padding: 5%;
+  }
+}
+@media only screen and (max-width: 830px) {
+  .comienza {
+    width: 80%;
+    font-size: 50px;
+    height: 70%;
+    padding: 5%;
+    margin: 50px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .comienza {
+    width: 80%;
+    font-size: 40px;
+    height: 70%;
+    padding: 5%;
+    margin: 50px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .comienza {
+    width: 80%;
+    font-size: 25px;
+    height: 60%;
+    padding: 5%;
+    margin: 30px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .comienza {
+    width: 75%;
+    font-size: 20px;
+    height: 55%;
+    padding: 5%;
+    margin: 30px;
+  }
+}
+@media only screen and (max-width: 330px) {
+  .comienza {
+    width: 75%;
+    font-size: 18px;
+    height: 55%;
+    padding: 5%;
+    margin: 30px;
+  }
+}
+/*---HASTA AQUI VA ---- CRE TU PROPIA PAGINA WEB-----*/
+/*---DESDE AQUI VA ---- DISEÑOS DE PAG WEB-----*/
+div.gallery {
+  margin: 10px;
+  border-radius: 10px 10px 10px 10px;
+  transition: width 2s, height 2s, transform 2s;
+  overflow: hidden;
+}
+
+div.gallery:hover {
+  filter: grayscale(80%);
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.responsive2 {
+  float: left;
+  width: 50%;
+  margin: auto;
+}
+
+.diseñospag {
+  width: 80%;
+  height: 550px;
+  margin: auto;
+}
+
+@media only screen and (max-width: 900px) {
+  .responsive2 {
+    width: 100%;
+  }
+
+  .diseñospag {
+    width: 80%;
+    height: 650px;
+  }
+}
+/*---PLANES EN OTRO CSS-----*/
+.formulario h1 {
+  font-family: bold, "Josefin Slab", serif;
+  font-size: 45px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.formulario2 {
+  margin-left: 540px;
+  font-family: "Cormorant Upright";
+  font-size: 30px;
+}
+
+.iconos ul {
+  width: auto;
+  text-decoration: none;
+  float: right;
+  margin-right: 10px;
+  margin-bottom: -100px;
+  background-color: black;
+  bottom: 0px;
+}
+
+.iconos li {
+  float: left;
+  list-style: none;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+.pregfrec {
+  text-decoration: none;
+  color: black;
+  margin-left: -230px;
+  background-color: rgba(217, 217, 217, 0.8);
+  box-shadow: 2px 2px 8px black;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.cafe {
+  height: 700px;
+  background-color: black;
+  position: relative;
+  width: 100%;
+  display: inline-block;
+}
+
+.cafe2 {
+  background-color: white;
+  margin: 5%;
+  position: absolute;
+  height: 80%;
+  width: 90%;
+}
+
+.cafetxt {
+  width: 44.99999%;
+  float: left;
+  text-align: left;
+  margin-left: 3%;
+  margin-top: 5%;
+  display: inline;
+  overflow: hidden;
+}
+
+.cafetxt h2 {
+  font-family: bold, "Josefin Slab", serif;
+  font-size: 50px;
+}
+
+.cafetxt p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+.cafetxt ul {
+  margin-top: 3%;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.cafetxt li {
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+.cafecompu {
+  width: 44.99999%;
+  float: right;
+  background-image: url(../img/funciona.jpg);
+  background-attachment: fixed;
+  height: 100%;
+  background-size: 100%;
+}
+
+.cafecompu img {
+  margin-left: 20%;
+  margin-top: 30%;
+  width: 60%;
+}
+
+@media only screen and (max-width: 1040px) {
+  .cafe {
+    width: 100%;
+    height: 600px;
+    margin: 0;
+  }
+
+  .cafetxt h2 {
+    font-size: 40px;
+  }
+
+  .cafetxt p {
+    font-size: 20px;
+  }
+
+  .cafetxt li {
+    font-size: 20px;
+  }
+
+  .cafetxt {
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 925px) {
+  .cafetxt {
+    margin-top: 20px;
+  }
+
+  .cafe {
+    width: 100%;
+    height: 550px;
+    margin: 0;
+  }
+
+  .cafetxt h2 {
+    font-size: 38px;
+  }
+
+  .cafetxt p {
+    font-size: 18px;
+  }
+
+  .cafetxt li {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 825px) {
+  .cafetxt {
+    margin-top: 20px;
+  }
+
+  .cafe {
+    width: 100%;
+    height: 500px;
+    margin: 0;
+  }
+
+  .cafetxt h2 {
+    font-size: 36px;
+  }
+
+  .cafetxt p {
+    font-size: 16px;
+  }
+
+  .cafetxt li {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .cafe {
+    height: 800px;
+    background-color: black;
+    position: relative;
+    width: 100%;
+    display: inline-block;
+  }
+
+  .cafe2 {
+    background-color: white;
+    margin: 5%;
+    position: absolute;
+    height: 80%;
+    width: 90%;
+  }
+
+  .cafetxt {
+    width: 95%;
+    float: left;
+    text-align: left;
+    margin-left: 3%;
+    margin-top: 5%;
+    display: inline;
+    overflow: hidden;
+  }
+
+  .cafetxt h2 {
+    font-size: 50px;
+  }
+
+  .cafetxt p {
+    font-size: 20px;
+  }
+
+  .cafetxt ul {
+    margin-top: 3%;
+  }
+
+  .cafetxt li {
+    font-size: 20px;
+  }
+
+  .cafecompu {
+    width: 100%;
+    float: right;
+    background-image: url(../img/funciona.jpg);
+    background-attachment: fixed;
+    height: 400px;
+    background-size: 100%;
+  }
+
+  .cafecompu img {
+    margin-left: 20%;
+    margin-top: 30%;
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .cafe {
+    height: 700px;
+  }
+
+  .cafe2 {
+    height: 80%;
+    width: 90%;
+  }
+
+  .cafetxt {
+    width: 95%;
+    margin-left: 3%;
+    margin-top: 5%;
+  }
+
+  .cafetxt h2 {
+    font-size: 35px;
+  }
+
+  .cafetxt p {
+    font-size: 18px;
+  }
+
+  .cafetxt ul {
+    margin-top: 3%;
+  }
+
+  .cafetxt li {
+    font-size: 18px;
+  }
+
+  .cafecompu {
+    width: 100%;
+    float: right;
+    background-image: url(../img/funciona.jpg);
+    background-attachment: fixed;
+    height: 340px;
+    background-size: 100%;
+  }
+
+  .cafecompu img {
+    margin-left: 20%;
+    margin-top: 30%;
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .cafe {
+    height: 600px;
+    background-color: black;
+    position: relative;
+    width: 100%;
+    display: inline-block;
+  }
+
+  .cafe2 {
+    height: 80%;
+    width: 90%;
+  }
+
+  .cafetxt {
+    width: 95%;
+    margin-left: 3%;
+    margin-top: 5%;
+  }
+
+  .cafetxt h2 {
+    font-size: 30px;
+  }
+
+  .cafetxt p {
+    font-size: 14px;
+  }
+
+  .cafetxt ul {
+    margin-top: 3%;
+  }
+
+  .cafetxt li {
+    font-size: 14px;
+  }
+
+  .cafecompu {
+    width: 100%;
+    float: right;
+    background-image: url(../img/funciona.jpg);
+    background-attachment: fixed;
+    height: 300px;
+    background-size: 100%;
+  }
+
+  .cafecompu img {
+    margin-left: 20%;
+    margin-top: 30%;
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .cafe {
+    height: 550px;
+    background-color: black;
+    position: relative;
+    width: 100%;
+    display: inline-block;
+  }
+
+  .cafe2 {
+    height: 80%;
+    width: 90%;
+  }
+
+  .cafetxt {
+    width: 95%;
+    margin-left: 3%;
+    margin-top: 5%;
+  }
+
+  .cafetxt h2 {
+    font-size: 28px;
+  }
+
+  .cafetxt p {
+    font-size: 12px;
+  }
+
+  .cafetxt ul {
+    margin-top: 3%;
+  }
+
+  .cafetxt li {
+    font-size: 12px;
+  }
+
+  .cafecompu {
+    width: 100%;
+    float: right;
+    background-image: url(../img/funciona.jpg);
+    background-attachment: fixed;
+    height: 270px;
+    background-size: 100%;
+  }
+
+  .cafecompu img {
+    margin-left: 20%;
+    margin-top: 30%;
+    width: 60%;
+  }
+}
+.pie {
+  background-image: url(divgris.png);
+  height: 500px;
+  width: 100%;
+}
+
+.pielogo {
+  float: left;
+  width: 40%;
+  margin: 5%;
+}
+
+.pielogo img {
+  width: 50%;
+}
+
+.pielogo p {
+  margin-top: 20px;
+  font-family: "Microsoft JhengHei Light";
+  font-size: 20px;
+}
+
+.pielogo a {
+  text-decoration: none;
+  color: gray;
+  font-family: "Josefin Slab", serif;
+}
+
+.piecontacto {
+  width: 40%;
+  margin: 5%;
+  margin-top: 15%;
+  float: right;
+  font-family: "Microsoft JhengHei Light";
+}
+
+.piecontacto h4 {
+  font-family: "Microsoft JhengHei Light";
+  font-size: 18px;
+}
+
+.piecontacto hr {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.mail {
+  text-decoration: none;
+  color: black;
+  font-family: "Microsoft JhengHei Light";
+}
+
+.cel {
+  text-decoration: none;
+  color: black;
+  font-family: "Microsoft JhengHei Light";
+}
+
+.piefinal {
+  background-color: black;
+  height: 60px;
+}
+
+.piefinal h5 {
+  color: white;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+  .formulario h1 {
+    font-size: 50px;
+    margin-top: 100px;
+  }
+
+  .piecontacto {
+    margin-top: 30%;
+  }
+
+  .pielogo img {
+    width: 80%;
+  }
+
+  .pielogo p {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  .pielogo a {
+    font-size: 14px;
+  }
+
+  .pie {
+    height: 400px;
+  }
+
+  .piecontacto h4 {
+    font-family: "Microsoft JhengHei Light";
+    font-size: 14px;
+  }
+
+  .mail {
+    font-size: 12px;
+  }
+
+  .cel {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .formulario h1 {
+    font-size: 35px;
+    margin-top: 100px;
+  }
+
+  .piecontacto {
+    margin-top: 25%;
+  }
+
+  .pielogo img {
+    width: 80%;
+  }
+
+  .pielogo p {
+    margin-top: 20px;
+    font-size: 15px;
+  }
+
+  .pielogo a {
+    font-size: 14px;
+  }
+
+  .pie {
+    height: 300px;
+  }
+
+  .piecontacto h4 {
+    font-family: "Microsoft JhengHei Light";
+    font-size: 14px;
+  }
+
+  .mail {
+    font-size: 12px;
+  }
+
+  .cel {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .formulario h1 {
+    font-size: 30px;
+    margin-top: 100px;
+  }
+
+  .piecontacto {
+    margin-top: 30%;
+  }
+
+  .pielogo img {
+    width: 80%;
+  }
+
+  .pielogo p {
+    margin-top: 20px;
+    font-size: 10px;
+  }
+
+  .pielogo a {
+    font-size: 14px;
+  }
+
+  .pie {
+    height: 200px;
+  }
+
+  .piecontacto h4 {
+    font-family: "Microsoft JhengHei Light";
+    font-size: 8px;
+  }
+
+  .mail {
+    font-size: 12px;
+  }
+
+  .cel {
+    font-size: 12px;
+  }
+}
+.ejemplodiseño {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 45px;
+  font-family: "Josefin Slab", serif;
+}
+
+.ejemplodiseño2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 45px;
+  font-family: "Josefin Slab", serif;
+}
+
+@media only screen and (max-width: 500px) {
+  .ejemplodiseño {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Josefin Slab", serif;
+  }
+
+  .ejemplodiseño2 {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Josefin Slab", serif;
+  }
+}
+#misdiseños {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 50px;
+  font-family: Camelot MF;
+}
+
+#misplanes {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 50px;
+  font-family: Camelot MF;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.menu_bar {
+  display: none;
+}
+
+header {
+  width: 100%;
+}
+
+header nav {
+  background: white;
+  z-index: 1000;
+  max-width: 75%;
+  width: 75%;
+  margin: 10px auto;
+  top: 70px;
+}
+
+header nav ul {
+  margin-left: 60px;
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+  top: 0;
+}
+
+header nav ul li a {
+  color: black;
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 40px;
+  font-family: "Josefin Slab", serif;
+}
+
+header nav ul li a span {
+  margin-right: 10px;
+  font-size: 50px;
+  background-color: pink;
+}
+
+header nav ul li:hover .children {
+  display: block;
+}
+
+header nav ul li .children {
+  display: none;
+  background: #011826;
+  position: absolute;
+  width: 150%;
+  z-index: 1000;
+}
+
+header nav ul li .children li {
+  display: block;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+header nav ul li .children li a {
+  display: block;
+}
+
+header nav ul li .children li a span {
+  float: right;
+  position: relative;
+  top: 3px;
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+header nav ul li .caret {
+  position: relative;
+  top: 3px;
+  margin-left: 10px;
+  margin-right: 0px;
+}
+
+@media screen and (max-width: 1235px) {
+  body {
+    padding-top: 80px;
+  }
+
+  .menu_bar {
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: black;
+    z-index: 10;
+    border-bottom: 3px solid white;
+  }
+
+  .menu_bar .bt-menu {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    overflow: hidden;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .menu_bar span {
+    float: right;
+    font-size: 40px;
+  }
+
+  header nav {
+    width: 100%;
+    height: 60%;
+    position: fixed;
+    right: 100%;
+    margin: 0;
+    overflow: scroll;
+  }
+
+  header nav ul li {
+    display: block;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  }
+
+  header nav ul li a {
+    display: block;
+    font-size: 35px;
+  }
+
+  header nav ul li:hover .children {
+    display: none;
+  }
+
+  header nav ul li .children {
+    width: 100%;
+    position: relative;
+  }
+
+  header nav ul li .children li a {
+    margin-left: 20px;
+  }
+
+  header nav ul li .caret {
+    float: right;
+  }
+}
+#pricing-table {
+  margin: auto;
+  text-align: center;
+  width: 90%;
+  /* total computed width = 222 x 3 + 226 */
+  z-index: -1;
+}
+
+#pricing-table .plan {
+  font: 15px "Josefin Sans", sans-serif;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.8);
+  background: #fff;
+  border: 1px solid #ddd;
+  color: #333;
+  padding: 20px;
+  width: 33.33333%;
+  /* plan width = 180 + 20 + 20 + 1 + 1 = 222px */
+  float: left;
+  position: relative;
+  z-index: -1;
+}
+
+#pricing-table #most-popular {
+  z-index: -1;
+  top: -13px;
+  border-width: 3px;
+  padding: 30px 20px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 20px 0 10px -10px rgba(0, 0, 0, 0.15), -20px 0 10px -10px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 20px 0 10px -10px rgba(0, 0, 0, 0.15), -20px 0 10px -10px rgba(0, 0, 0, 0.15);
+  box-shadow: 20px 0 10px -10px rgba(0, 0, 0, 0.15), -20px 0 10px -10px rgba(0, 0, 0, 0.15);
+}
+
+#pricing-table .plan:nth-child(1) {
+  -moz-border-radius: 5px 0 0 5px;
+  -webkit-border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
+}
+
+#pricing-table .plan:nth-child(4) {
+  -moz-border-radius: 0 5px 5px 0;
+  -webkit-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
+}
+
+#pricing-table h3 {
+  font-size: 20px;
+  font-weight: normal;
+  padding: 20px;
+  margin: -20px -20px 50px -20px;
+  background-color: #eee;
+  background-image: -moz-linear-gradient(#fff, #eee);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
+  background-image: -webkit-linear-gradient(#fff, #eee);
+  background-image: -o-linear-gradient(#fff, #eee);
+  background-image: -ms-linear-gradient(#fff, #eee);
+  background-image: linear-gradient(#fff, #eee);
+}
+
+#pricing-table #most-popular h3 {
+  background-color: #ddd;
+  background-image: -moz-linear-gradient(#eee, #ddd);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ddd));
+  background-image: -webkit-linear-gradient(#eee, #ddd);
+  background-image: -o-linear-gradient(#eee, #ddd);
+  background-image: -ms-linear-gradient(#eee, #ddd);
+  background-image: linear-gradient(#eee, #ddd);
+  margin-top: -30px;
+  padding-top: 30px;
+  -moz-border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+}
+
+#pricing-table .plan:nth-child(1) h3 {
+  -moz-border-radius: 5px 0 0 0;
+  -webkit-border-radius: 5px 0 0 0;
+  border-radius: 5px 0 0 0;
+}
+
+#pricing-table .plan:nth-child(4) h3 {
+  -moz-border-radius: 0 5px 0 0;
+  -webkit-border-radius: 0 5px 0 0;
+  border-radius: 0 5px 0 0;
+}
+
+#pricing-table h3 span {
+  display: block;
+  font: bold 25px/100px "Slabo 27px", serif;
+  color: #777;
+  background: #fff;
+  border: 5px solid #fff;
+  height: 100px;
+  width: 100px;
+  margin: 10px auto -65px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  -moz-box-shadow: 0 5px 20px #ddd inset, 0 3px 0 #999 inset;
+  -webkit-box-shadow: 0 5px 20px #ddd inset, 0 3px 0 #999 inset;
+  box-shadow: 0 5px 20px #ddd inset, 0 3px 0 #999 inset;
+}
+
+#pricing-table ul {
+  margin: 20px 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+#pricing-table li {
+  border-top: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+#pricing-table .signup {
+  position: relative;
+  padding: 8px 20px;
+  margin: 20px 0 0 0;
+  color: #fff;
+  font: bold 14px Arial, Helvetica;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  background-color: black;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5), 0 2px 0 rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5), 0 2px 0 rgba(0, 0, 0, 0.7);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5), 0 2px 0 rgba(0, 0, 0, 0.7);
+}
+
+#pricing-table .signup:hover {
+  background-color: #62bc30;
+  background-image: -moz-linear-gradient(#62bc30, #72ce3f);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#62bc30), to(#72ce3f));
+  background-image: -webkit-linear-gradient(#62bc30, #72ce3f);
+  background-image: -o-linear-gradient(#62bc30, #72ce3f);
+  background-image: -ms-linear-gradient(#62bc30, #72ce3f);
+  background-image: linear-gradient(#62bc30, #72ce3f);
+}
+
+#pricing-table .signup:active, #pricing-table .signup:focus {
+  background: #62bc30;
+  top: 2px;
+  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.7) inset;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.7) inset;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.7) inset;
+}
+
+.clear:before, .clear:after {
+  content: "";
+  display: table;
+}
+
+.clear:after {
+  clear: both;
+}
+
+.clear {
+  zoom: 1;
+}
+
+@media only screen and (max-width: 700px) {
+  #pricing-table .plan {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #pricing-tables .plan {
+    width: 100%;
+  }
+}
+.flechavolverhoy {
+  margin-left: 95%;
+  top: 90%;
+  position: sticky;
+  z-index: 1;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 825px) {
+  .flechavolverhoy {
+    margin-left: 94%;
+    top: 85%;
+    position: sticky;
+    z-index: 1;
+    overflow: hidden;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .flechavolverhoy {
+    margin-left: 93%;
+    top: 83%;
+    position: sticky;
+    z-index: 1;
+    overflow: hidden;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .flechavolverhoy {
+    margin-left: 90%;
+    top: 85%;
+    position: sticky;
+    z-index: 1;
+    overflow: hidden;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .flechavolverhoy {
+    margin-left: 85%;
+    top: 85%;
+    position: sticky;
+    z-index: 1;
+    overflow: hidden;
+  }
+}
+:root {
+  --body-bg-color: #1a1c1d;
+  --text-color: #aaaebc;
+  --hr-color: #26292a;
+  --transition-duration: 0.3s;
+  --transition-delay: 0.2s;
+  --red: #e74c3c;
+}
+
+.menuC ul {
+  background: var(--body-bg-color);
+}
+
+.menuC {
+  display: flex;
+  justify-content: center;
+  background: var(--body-bg-color);
+  width: 100%;
+}
+
+.menuC li {
+  margin-right: 70px;
+  list-style: none;
+  background: var(--body-bg-color);
+  width: 10%;
+}
+
+.menuC a {
+  position: relative;
+  display: block;
+  padding: 10px;
+  color: inherit;
+  text-decoration: none;
+  margin: 30px 0;
+  font: 22px sans-serif;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.menuC .border {
+  position: absolute;
+  left: 0;
+  background: currentColor;
+  transition: transform var(--transition-duration) ease-in-out;
+}
+
+.menuC .border-top,
+.menuC .border-bottom {
+  width: 100%;
+  height: 1px;
+  transform: scaleX(0);
+}
+
+.menuC .border-left,
+.menuC .border-right {
+  width: 1px;
+  height: 100%;
+  transform: scaleY(0);
+}
+
+.menuC .border-top,
+.menuC .border-left,
+.menuC .border-right {
+  top: 0;
+}
+
+.menuC .border-bottom {
+  bottom: 0;
+  transform-origin: bottom right;
+}
+
+.menuC .border-top {
+  transform-origin: top left;
+}
+
+.menuC .border-left {
+  transform-origin: bottom left;
+}
+
+.menuC .border-right {
+  left: auto;
+  right: 0;
+  transform-origin: top right;
+}
+
+.menuC a:hover .border-top,
+.menuC a:hover .border-bottom {
+  transform: scaleX(1);
+}
+
+.menuC a:hover .border-left,
+.menuC a:hover .border-right {
+  transform: scaleY(1);
+}
+
+.menuC a:hover .border-right {
+  transition-delay: var(--transition-delay);
+}
+
+.menuC a:hover .border-bottom {
+  transition-delay: calc(var(--transition-delay) * 2);
+}
+
+.menuC a:hover .border-left {
+  transition-delay: calc(var(--transition-delay) * 3);
+}
+
+/* ANIMATIONS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.menuC[data-animation=diagonal] .border-left {
+  transform-origin: top left;
+}
+
+.menuC[data-animation=diagonal] .border-right,
+.menuC[data-animation=diagonal] .border-bottom {
+  transform-origin: bottom right;
+}
+
+.menuC[data-animation=diagonal] a:hover [class^=border] {
+  transition-delay: 0s;
+}
+
+.page-footer {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 1rem;
+}
+
+.page-footer span {
+  color: var(--red);
+}
+
+@media only screen and (max-width: 1150px) {
+  .menuC .border {
+    display: none;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .menuC {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .menuC {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .menuC a {
+    font-size: 18px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

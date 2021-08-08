@@ -1,0 +1,2438 @@
+*{	
+	top: 0px;
+	left: 0p;
+	box-sizing: border-box;
+}
+
+body{
+	margin:0px;
+	padding:0px;
+}
+
+.fondo1{											/* PRIMER DIV CON MENU*/
+	background-image: url(../img/resto1.jpg);
+	background-size: 1370px;
+	background-repeat: no-repeat;
+	height: 625px;
+	background-attachment: fixed;
+}
+
+.datos0{
+	height: 50px;
+	color: white;
+}
+
+.datos1{
+	float: right;
+	margin-right: 100px;
+	margin-top: 20px;
+	font-family: Aparajita;
+	font-size: 15px;
+}
+
+.menu0{
+	height: 80px;
+	background-color: rgba(0,0,0, 0.5);
+}
+
+.menu0 li{
+	float: left;
+	color: white;
+	list-style: none;
+}
+
+.menu1 {
+	font-size: 35px;
+	padding: 20px;
+	margin-right: 100px;
+}
+
+.menu2 {
+	font-size: 18px;
+	padding: 25px;
+}
+
+.menu2:hover{
+	font-size: 18px;
+	padding: 25px;
+	transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in;
+    color: #B09E51;
+}
+
+.menu2:active:before{
+	font-size: 18px;
+	padding: 25px;
+    color: #B09E51;
+}
+
+.menu3 {
+	font-size: 15px;
+	margin: 15px;
+	margin-left: 50px;
+	border:2px solid #B09E51;
+	padding:10px 40px 10px 40px;
+	border-radius:30px 30px 30px 30px;
+}
+
+.menu3:hover{
+	font-size: 15px;
+	margin: 15px;
+	margin-left: 50px;
+	border:2px solid #B09E51;
+	padding:10px 40px 10px 40px;
+	border-radius:30px 30px 30px 30px;
+	background-color: #B09E51;
+	transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in;
+}
+
+.menu4 {
+	margin-top: 100px;
+	margin-left: 50px;
+	font-size: 25px;
+}
+
+.menu4 h1{
+	color: white;
+}
+
+.menu4 h2{
+	color: white;
+}
+
+.menu4 li{
+	float: left;
+	text-decoration: none;
+	list-style: none;
+	color: white;
+	margin-left: 10px;
+}
+
+.menu5 {
+	font-size: 20px;
+	border:2px solid #B09E51;
+	padding:10px 40px 10px 40px;
+	border-radius:30px 30px 30px 30px;
+	background: transparent;
+	color: white;
+}
+
+.menu5:hover{
+	border:2px solid #B09E51;
+	padding:10px 40px 10px 40px;
+	border-radius:30px 30px 30px 30px;
+	background-color: #B09E51;
+	transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in;
+}
+
+.menu6 {
+	font-size: 20px;
+	border:2px solid #B09E51;
+	padding:10px 40px 10px 40px;
+	border-radius:30px 30px 30px 30px;
+	background: transparent;
+	color: white;
+}
+
+.menu6:hover{
+	border:2px solid #B09E51;
+	padding:10px 40px 10px 40px;
+	border-radius:30px 30px 30px 30px;
+	background-color: #B09E51;
+	transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in;
+}
+
+@media only screen and (max-width: 1300px) { 
+    .fondo1{											
+        background-image: url(../img/resto1.jpg);
+        background-size: 1300px;
+        background-repeat: no-repeat;
+        height: 550px;
+        background-attachment: fixed;
+    }
+    .datos0{
+        height: 50px;
+        color: white;
+    }
+    .datos1{
+        float: right;
+        margin-right: 100px;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    .menu0{
+        height: 80px;
+        background-color: rgba(0,0,0, 0.5);
+    }
+    .menu0 li{
+        float: left;
+        color: white;
+        list-style: none;
+    }
+    .menu1 {
+        font-size: 35px;
+        padding: 20px;
+        margin-right: 50px;
+    }
+    .menu2 {
+        font-size: 25px;
+        padding: 25px;
+    }
+    .menu2:hover{
+        font-size: 18px;
+        padding: 25px;
+        transition-property: all;
+        transition-duration: 0.4s;
+        transition-timing-function: ease-in;
+        color: #B09E51;
+    }
+    .menu2:active:before{
+        font-size: 18px;
+        padding: 25px;
+        color: #B09E51;
+    }
+    .menu3 {
+        display: none;
+    }
+    .menu3:hover{
+        font-size: 15px;
+        margin: 15px;
+        margin-left: 50px;
+        border:2px solid #B09E51;
+        padding:10px 40px 10px 40px;
+        border-radius:30px 30px 30px 30px;
+        background-color: #B09E51;
+        transition-property: all;
+        transition-duration: 0.4s;
+        transition-timing-function: ease-in;
+    }
+    .menu4 {
+        margin-top: 50px;
+        margin-left: 50px;
+        font-size: 18px;
+    }
+    .menu4 h1{
+        color: white;
+    }
+    .menu4 h2{
+        color: white;
+    }
+    .menu4 li{
+        float: left;
+        text-decoration: none;
+        list-style: none;
+        color: white;
+        margin-left: 10px;
+    }
+    .menu5 {
+        font-size: 20px;
+        border:2px solid #B09E51;
+        padding:10px 40px 10px 40px;
+        border-radius:30px 30px 30px 30px;
+        background: transparent;
+        color: white;
+    }
+    .menu5:hover{
+        border:2px solid #B09E51;
+        padding:10px 40px 10px 40px;
+        border-radius:30px 30px 30px 30px;
+        background-color: #B09E51;
+        transition-property: all;
+        transition-duration: 0.4s;
+        transition-timing-function: ease-in;
+
+    }
+    .menu6 {
+        font-size: 20px;
+        border:2px solid #B09E51;
+        padding:10px 30px 10px 30px;
+        border-radius:30px 30px 30px 30px;
+        background: transparent;
+        color: white;
+    }
+    .menu6:hover{
+        border:2px solid #B09E51;
+        padding:10px 30px 10px 30px;
+        border-radius:30px 30px 30px 30px;
+        background-color: #B09E51;
+        transition-property: all;
+        transition-duration: 0.4s;
+        transition-timing-function: ease-in;
+    }	
+}
+@media only screen and (max-width: 950px) { 
+    .fondo1{									
+        background-size: 1370px;
+        height: 625px;
+    }
+    .datos0{
+        height: 50px;
+        color: white;
+    }
+    .datos1{
+        float: right;
+        margin-right: 100px;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    .menu0{
+        height: 80px;
+        background-color: rgba(0,0,0, 0.5);
+    }
+    .menu0 li{
+        float: left;
+        color: white;
+        list-style: none;
+    }
+    .menu1 {
+        font-size: 30px;
+        padding: 20px;
+        margin-right: 0px;
+    }
+    .menu2 {
+        font-size: 25px;
+        padding: 15px;
+        padding-top: 25px;
+    }
+    .menu2:hover{
+        font-size: 18px;
+        padding: 25px;
+        transition-property: all;
+        transition-duration: 0.4s;
+        transition-timing-function: ease-in;
+        color: #B09E51;
+    }
+    .menu2:active:before{
+        font-size: 18px;
+        padding: 25px;
+        color: #B09E51;
+    }
+    .menu3 {
+        font-size: 15px;
+        margin: 15px;
+        margin-left: 50px;
+        border:2px solid #B09E51;
+        padding:10px 40px 10px 40px;
+        border-radius:30px 30px 30px 30px;
+    }
+    .menu3:hover{
+        font-size: 15px;
+        margin: 15px;
+        margin-left: 50px;
+        border:2px solid #B09E51;
+        padding:10px 40px 10px 40px;
+        border-radius:30px 30px 30px 30px;
+        background-color: #B09E51;
+        transition-property: all;
+        transition-duration: 0.4s;
+        transition-timing-function: ease-in;
+    }
+    .menu4 {
+        margin-top: 100px;
+        margin-left: 50px;
+        font-size: 25px;
+    }
+    .menu4 h1{
+        color: white;
+    }
+    .menu4 h2{
+        color: white;
+        font-size: 25px;
+    }
+    .menu4 li{
+        float: left;
+        text-decoration: none;
+        list-style: none;
+        color: white;
+        margin-left: 10px;
+    }
+    .menu5 {
+        font-size: 18px;
+        border:2px solid #B09E51;
+        padding:10px 40px 10px 40px;
+        border-radius:30px 30px 30px 30px;
+        background: transparent;
+        color: white;
+    }
+    .menu5:hover{
+        border:2px solid #B09E51;
+        padding:10px 40px 10px 40px;
+        border-radius:30px 30px 30px 30px;
+        background-color: #B09E51;
+        transition-property: all;
+        transition-duration: 0.4s;
+        transition-timing-function: ease-in;
+    }
+    .menu6 {
+        font-size: 18px;
+        border:2px solid #B09E51;
+        padding:10px 40px 10px 40px;
+        border-radius:30px 30px 30px 30px;
+        background: transparent;
+        color: white;
+    }
+    .menu6:hover{
+        border:2px solid #B09E51;
+        padding:10px 40px 10px 40px;
+        border-radius:30px 30px 30px 30px;
+        background-color: #B09E51;
+        transition-property: all;
+        transition-duration: 0.4s;
+        transition-timing-function: ease-in;
+    }
+}
+@media only screen and (max-width: 800px) { 
+    .fondo1{									
+        background-size: 1370px;
+        height: 625px;
+    }
+    .datos0{
+        height: 50px;
+        color: white;
+    }
+    .datos1{
+        float: right;
+        margin-right: 100px;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    .menu0{
+        height: 80px;
+        background-color: rgba(0,0,0, 0.5);
+    }
+    .menu0 li{
+        float: left;
+        color: white;
+        list-style: none;
+    }
+    .menu1 {
+        display: none;
+    }
+    .menu2 {
+        font-size: 25px;
+        padding: 20px;
+    }
+    .menu2:hover{
+        font-size: 18px;
+        padding: 25px;
+        transition-property: all;
+        transition-duration: 0.4s;
+        transition-timing-function: ease-in;
+        color: #B09E51;
+    }
+    .menu2:active:before{
+        font-size: 18px;
+        padding: 25px;
+        color: #B09E51;
+    }
+    .menu3 {
+        font-size: 15px;
+        margin: 15px;
+        margin-left: 50px;
+        border:2px solid #B09E51;
+        padding:10px 40px 10px 40px;
+        border-radius:30px 30px 30px 30px;
+    }
+    .menu3:hover{
+        font-size: 15px;
+        margin: 15px;
+        margin-left: 50px;
+        border:2px solid #B09E51;
+        padding:10px 40px 10px 40px;
+        border-radius:30px 30px 30px 30px;
+        background-color: #B09E51;
+        transition-property: all;
+        transition-duration: 0.4s;
+        transition-timing-function: ease-in;
+    }
+    .menu4 {
+        margin-top: 100px;
+        margin-left: 50px;
+        font-size: 25px;
+    }
+    .menu4 h1{
+        color: white;
+    }
+    .menu4 h2{
+        color: white;
+        font-size: 25px;
+    }
+    .menu4 li{
+        float: left;
+        text-decoration: none;
+        list-style: none;
+        color: white;
+        margin-left: 10px;
+    }
+    .menu5 {
+        font-size: 18px;
+        border:2px solid #B09E51;
+        padding:10px 40px 10px 40px;
+        border-radius:30px 30px 30px 30px;
+        background: transparent;
+        color: white;
+    }
+    .menu5:hover{
+        border:2px solid #B09E51;
+        padding:10px 40px 10px 40px;
+        border-radius:30px 30px 30px 30px;
+        background-color: #B09E51;
+        transition-property: all;
+        transition-duration: 0.4s;
+        transition-timing-function: ease-in;
+    }
+    .menu6 {
+        font-size: 18px;
+        border:2px solid #B09E51;
+        padding:10px 40px 10px 40px;
+        border-radius:30px 30px 30px 30px;
+        background: transparent;
+        color: white;
+    }
+    .menu6:hover{
+        border:2px solid #B09E51;
+        padding:10px 40px 10px 40px;
+        border-radius:30px 30px 30px 30px;
+        background-color: #B09E51;
+        transition-property: all;
+        transition-duration: 0.4s;
+        transition-timing-function: ease-in;
+    }
+}
+@media only screen and (max-width: 520px) { 
+    .datos1{
+        margin-right: 10px;
+        margin-top: 20px;
+        font-size: 10px;
+        }
+    .menu1 {
+        display: none;
+        }
+    .menu2 {
+        font-size: 18px;
+        padding: 10px;
+        }
+	.menu3 {
+		font-size: 10px;
+		margin: auto;
+		padding:5px 30px 5px 30px;
+	}
+	.menu4 {
+		margin-top: 50px;
+		margin-left: 10px;
+		font-size: 10px;
+	}
+	.menu5 {
+		font-size: 10px;
+		padding:5px 20px 5px 20px;
+		border-radius:30px 30px 30px 30px;
+	}
+	.menu6 {
+		font-size: 10px;
+		padding:5px 20px 5px 20px;
+		border-radius:30px 30px 30px 30px;
+	}
+	.fondo1{
+		background-size: auto;
+		background-repeat: no-repeat;
+		height: 450px;
+		background-attachment: fixed;
+	}	
+}
+
+@media only screen and (max-width: 320px) { 
+    .datos1{
+          margin-right: 10px;
+          margin-top: 20px;
+          font-size: 10px;
+      }
+}
+@media only screen and (max-width: 320px) { 
+  .datos1{
+        margin-right: 10px;
+        margin-top: 20px;
+        font-size: 10px;
+	}
+	.menu0{
+        height: 40px;
+        background-color: rgba(0,0,0, 0.5);
+    }
+	.menu1 {
+	    display: none;
+	}
+	.menu2 {
+	    font-size: 15px;
+	    padding: 7px;
+	}
+	.menu3 {
+		font-size: 10px;
+		margin: auto;
+		padding:5px 30px 5px 30px;
+	}
+	.menu4 {
+		margin-top: 50px;
+		margin-left: 10px;
+		font-size: 8px;
+	}
+	.menu5 {
+		font-size: 10px;
+		padding:5px 20px 5px 20px;
+		border-radius:30px 30px 30px 30px;
+	}
+	.menu6 {
+		font-size: 10px;
+		padding:5px 20px 5px 20px;
+		border-radius:30px 30px 30px 30px;
+	}
+	.fondo1{
+		background-size: auto;
+		background-repeat: no-repeat;
+		height: 450px;
+		background-attachment: fixed;
+	}	
+}																/* TERMINA PRIMER DIV CON MENU*/ 
+
+.fondo2{														/*  DIV 2 FOTO Y DESCRIPCION*/ 
+	background-image: url(../img/resto2.png);
+	background-size: auto;
+	background-repeat: no-repeat;
+	height: 625px;
+	background-attachment: fixed;
+	width: 100%;
+}
+
+.final1{										
+	float: right;
+	width: 50%;
+	height: 60px;	
+}
+
+.imgfondo2{
+	width: 550px;
+	border: solid 5px gray;
+	margin: 100px 50px 50px 0px;
+	transition: width 2s, height 2s, transform 2s;
+}
+
+.imgfondo2:hover{
+	 transform : scale(1.2);
+
+}
+.final2{	
+	float: left;
+	width: 40%;
+	color: white;
+	font-size: 20px;
+	margin: 50px;	
+	margin-left: 0px;
+}
+
+@media only screen and (max-width: 1300px) { 	
+    .fondo2{										
+        background-image: url(../img/resto2.png);
+        background-size: auto;
+        background-repeat: no-repeat;
+        height: 750px;
+        background-attachment: fixed;
+        width: 100%;
+    }
+    .imgfondo2{
+        width: 400px;
+        border: solid 5px gray;
+        margin: 450px 20px 50px 300px;
+        transition: width 2s, height 2s, transform 2s;
+        bottom: 20px;
+    }
+    .imgfondo2:hover{
+        transform : scale(1.2);
+    }
+    .final1{										
+        width: 100%;
+        height: 60px;	
+    }
+    .final2{	
+        width: 90%;
+        color: white;
+        font-size: 18px;
+        margin-left: 25px;	
+        margin-top: -20px;
+        text-align: center;
+    }	
+    .final2 li{	
+        list-style: none;
+        text-align: center;
+        font-size: 18px;
+    }					
+}
+
+@media only screen and (max-width: 1100px) { 	
+    .fondo2{										
+        background-image: url(../img/resto2.png);
+        background-size: auto;
+        background-repeat: no-repeat;
+        height: 750px;
+        background-attachment: fixed;
+        width: 100%;
+    }
+    .imgfondo2{
+        width: 400px;
+        border: solid 5px gray;
+        margin: 450px 20px 50px 300px;
+        transition: width 2s, height 2s, transform 2s;
+        bottom: 20px;
+    }
+    .imgfondo2:hover{
+        transform : scale(1.2);
+    }
+    .final1{										
+        width: 100%;
+        height: 60px;	
+    }
+    .final2{	
+        width: 90%;
+        color: white;
+        font-size: 18px;
+        margin-left: 25px;	
+        margin-top: -20px;
+        text-align: center;
+    }	
+    .final2 li{	
+        list-style: none;
+        text-align: center;
+        font-size: 18px;
+    }					
+}
+
+@media only screen and (max-width: 950px) { 
+    .fondo2{										
+        background-image: url(../img/resto2.png);
+        background-size: auto;
+        background-repeat: no-repeat;
+        height: 750px;
+        background-attachment: fixed;
+        width: 100%;
+    }
+    .final1{										
+        float: none;
+        width: 100%;
+        height: 60px;	
+    }
+    .imgfondo2{
+        width: 400px;
+        border: solid 5px gray;
+        margin: 450px 20px 50px 200px;
+        transition: width 2s, height 2s, transform 2s;
+        bottom: 20px;
+    }
+    .imgfondo2:hover{
+        transform : scale(1.2);
+    }
+    .final2{	
+        float: none;
+        width: 100%;
+        color: white;
+        font-size: 20px;
+        margin-left: 0px;
+        margin-top: -20px;
+        text-align: center;
+        list-style: none;
+    }
+
+    .final2 li{	
+        text-align: center;
+        font-size: 18px;
+        padding-right: 10px;
+    }	
+}
+
+@media only screen and (max-width: 800px) { 
+    .fondo2{										
+        background-image: url(../img/resto2.png);
+        background-size: auto;
+        background-repeat: no-repeat;
+        height: 750px;
+        background-attachment: fixed;
+        width: 100%;
+    }
+    .final1{										
+        float: none;
+        width: 100%;
+        height: 60px;	
+    }
+    .imgfondo2{
+        width: 380px;
+        border: solid 5px gray;
+        top: 75%;
+        left: 30%;
+        transition: width 2s, height 2s, transform 2s;
+    }
+    .imgfondo2:hover{
+        transform : scale(1.2);
+    }
+    .final2{	
+        float: none;
+        width: 100%;
+        color: white;
+        font-size: 20px;
+        margin-left: 0px;
+        margin-top: -20px;
+        text-align: center;
+        list-style: none;
+    }		
+    .final2 li{	
+        text-align: center;
+        font-size: 18px;
+        padding-right: 10px;
+    }		
+}
+
+@media only screen and (max-width: 670px) { 	
+    .fondo2{										
+        background-image: url(../img/resto2.png);
+        background-size: auto;
+        background-repeat: no-repeat;
+        height: 725px;
+        background-attachment: fixed;
+        width: 100%;
+    }
+    .imgfondo2{
+        width: 350px;
+        border: solid 5px gray;
+        margin: 450px 20px 50px 150px;
+        transition: width 2s, height 2s, transform 2s;
+        bottom: 20px;
+    }
+    .imgfondo2:hover{
+        transform : scale(1.2);
+    }
+    .final1{										
+        width: 100%;
+        height: 60px;	
+    }
+    .final2{	
+        width: 90%;
+        color: white;
+        font-size: 18px;
+        margin-left: 25px;	
+        margin-top: -20px;
+        text-align: center;
+    }	
+    .final2 li{	
+        list-style: none;
+        text-align: center;
+        font-size: 18px;
+    }					
+}
+
+@media only screen and (max-width: 570px) { 	
+    .fondo2{										
+        background-image: url(../img/resto2.png);
+        background-size: auto;
+        background-repeat: no-repeat;
+        height: 625px;
+        background-attachment: fixed;
+        width: 100%;
+    }
+    .final1{										
+        float: none;
+        width: 100%;
+        height: 60px;	
+    }
+    .imgfondo2{
+        width: 300px;
+        border: solid 5px gray;
+        margin: 350px 20px 50px 150px;
+        transition: width 2s, height 2s, transform 2s;
+        bottom: 20px;
+    }
+    .imgfondo2:hover{
+        transform : scale(1.2);
+    }
+    .final2{	
+        float: none;
+        width: 100%;
+        color: white;
+        font-size: 15px;
+        margin-left: 0px;
+        margin-top: -10px;
+        text-align: center;
+        list-style: none;
+    }		
+    .final2 ul{	
+        margin-top: -20px;
+    }
+    .final2 li{	
+        text-align: center;
+        font-size: 12px;
+    }					
+}
+
+@media only screen and (max-width: 420px) { 
+    .fondo2{										
+        background-image: url(../img/resto2.png);
+        background-size: auto;
+        background-repeat: no-repeat;
+        height: 550px;
+        background-attachment: fixed;
+        width: 100%;
+    }
+    .final1{										
+        float: none;
+        width: 100%;
+        height: 60px;	
+    }
+    .imgfondo2{
+        width: 250px;
+        border: solid 5px gray;
+        margin: 350px 20px 50px 65px;
+        transition: width 2s, height 2s, transform 2s;
+        bottom: 20px;
+    }
+    .imgfondo2:hover{
+        transform : scale(1.2);
+    }
+    .final2{	
+        float: none;
+        width: 100%;
+        color: white;
+        font-size: 15px;
+        margin-left: 0px;
+        margin-top: -10px;
+        text-align: center;
+        list-style: none;
+    }		
+    .final2 li{	
+        text-align: justify;
+        font-size: 12px;
+        padding-right: 10px;
+    }	
+}
+
+	@media only screen and (max-width: 320px) { 
+    .fondo2{										
+        background-image: url(../img/resto2.png);
+        background-size: auto;
+        background-repeat: no-repeat;
+        height: 425px;
+        background-attachment: fixed;
+        width: 100%;
+    }
+    .final1{										
+        float: none;
+        width: 100%;
+        height: 60px;	
+    }
+    .imgfondo2{
+        width: 200px;
+        border: solid 5px gray;
+        margin: 250px 20px 50px 50px;
+        transition: width 2s, height 2s, transform 2s;
+        bottom: 20px;
+    }
+    .imgfondo2:hover{
+        transform : scale(1.2);
+    }
+    .final2{	
+        float: none;
+        width: 100%;
+        color: white;
+        font-size: 10px;
+        margin-left: 0px;
+        margin-top: -10px;
+        text-align: center;
+        list-style: none;
+    }		
+    .final2 li{	
+        text-align: justify;
+        font-size: 10px;
+        padding-right: 10px;
+    }	
+}										/* TERMINA DIV 2 FOTO Y DESCRIPCION*/ 
+
+
+.final3{										/* DIV 3 MENUS*/	
+	background-color: #171717;
+}
+
+.final4{	
+	padding: 100px;
+}
+
+.comida{
+	 background-color: #171717;
+	 height: 1000px;
+}
+
+.comida_menu{
+	 color: #9C9A9A;
+	 margin: 0px;
+	 padding-left: 50px;
+	 font-size: 15px;
+}
+
+.comida_consulta{
+	 color: white;
+	 font-size: 200%;
+	 padding-left: 50px;
+	 color: #B09E51;
+}
+
+.comida_tipos{
+	margin-left: 200px;
+	margin-top: 50px;
+}
+
+.comida_tipos li{
+	float: left;
+	margin: 20px;
+	color: white;
+	list-style: none;
+	font-size: 20px;
+}
+
+.comida_tipos li:hover{
+	color: #B09E51;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in;
+}
+
+.final5{	
+	padding-left: 50px;
+}
+
+.final6{	
+	float: left;
+}
+
+.final6 p{	
+	color: white;
+	font-size: 18px;
+}
+
+.final6 img{
+	width: 100px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.final6 span{	
+	color: #B09E51;
+	font-size: 20px;
+}
+
+.final7{	
+	float: right;
+	padding-right: 50px;
+}
+
+.final7 p{	
+	color: white;
+	font-size: 18px;
+}
+
+.final7 img{	
+	vertical-align: middle;
+	margin-right: 10px;
+	width: 100px;
+}
+
+.final7 span{	
+	color: #B09E51;
+	font-size: 20px;
+}
+
+.final8{	
+	background-color: #171717;
+	margin-top: -50px;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	height: 650px;
+}
+
+.final8 p{	
+	color: white;
+	font-size: 18px;
+}
+
+.final8 img{	
+	vertical-align: middle;
+	margin-right: 10px;
+	width: 100px;
+}
+
+.final8 span{	
+	color: #B09E51;
+	font-size: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .final3{											
+        background-color: #171717;
+    }
+    .final4{	
+        padding: 100px;
+    }
+    .comida{
+        background-color: #171717;
+        height: 1550px;
+    }
+    .comida_menu{
+        color: #9C9A9A;
+        margin: 0px;
+        padding-left: 50px;
+        font-size: 15px;
+    }
+    .comida_consulta{
+        color: white;
+        font-size: 200%;
+        padding-left: 50px;
+        color: #B09E51;
+    }
+    .comida_tipos{
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .comida_tipos li{
+        float: left;
+        margin: 20px;
+        color: white;
+        list-style: none;
+        font-size: 20px;
+    }
+    .comida_tipos li:hover{
+        color: #B09E51;
+        transition-duration: 0.4s;
+        transition-timing-function: ease-in;
+    }
+    .final5{	
+        padding-left: 50px;
+    }
+    .final6{	
+        float: left;
+    }
+    .final6 p{	
+        color: white;
+        font-size: 18px;
+    }
+    .final6 img{
+        width: 100px;
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+    .final6 span{	
+        color: #B09E51;
+        font-size: 20px;
+    }
+    .final7{	
+        float: left;
+        padding-right: 50px;
+    }
+    .final7 p{	
+        color: white;
+        font-size: 18px;
+    }
+    .final7 img{	
+        vertical-align: middle;
+        margin-right: 10px;
+        width: 100px;
+    }
+    .final7 span{	
+        color: #B09E51;
+        font-size: 20px;
+    }
+    .final8{
+        width: 100%;	
+        background-color: #171717;
+        margin-top: 0px;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 30px;
+        height: 650px;
+    }
+    .final8 p{	
+        color: white;
+        font-size: 18px;
+    }
+    .final8 img{	
+        vertical-align: middle;
+        margin-right: 10px;
+        width: 100px;
+        margin-left: -50px;
+    }
+    .final8 span{	
+        color: #B09E51;
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .final3{											
+        background-color: #171717;
+    }
+    .final4{	
+        padding: 100px;
+    }
+    .comida{
+        background-color: #171717;
+        height: 1550px;       
+    }
+    .comida_menu{
+        color: #9C9A9A;
+        margin: 0px;
+        padding-left: 50px;
+        font-size: 15px;
+    }
+    .comida_consulta{
+        color: white;
+        font-size: 200%;
+        padding-left: 50px;
+        color: #B09E51;
+    }
+    .comida_tipos{
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .comida_tipos li{
+        float: left;
+        margin: 20px;
+        color: white;
+        list-style: none;
+        font-size: 35px;
+    }
+    .comida_tipos li:hover{
+        color: #B09E51;
+        transition-duration: 0.4s;
+        transition-timing-function: ease-in;
+    }
+    .final5{	
+        padding-left: 50px;
+    }
+    .final6{	
+        float: left;
+    }
+    .final6 p{	
+        color: white;
+        font-size: 25px;
+    }
+    .final6 img{
+        width: 130px;
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+    .final6 span{	
+        color: #B09E51;
+        font-size: 25px;
+    }
+    .final7{	
+        float: left;
+        padding-right: 50px;
+    }
+    .final7 p{	
+        color: white;
+        font-size: 25px;
+    }
+    .final7 img{	
+        vertical-align: middle;
+        margin-right: 10px;
+        width: 130px;
+    }
+    .final7 span{	
+        color: #B09E51;
+        font-size: 25px;
+    }
+    .final8{
+        width: 100%;	
+        background-color: #171717;
+        margin-top: 0px;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 400px;
+        height: 1200px;
+    }
+    .final8 p{	
+        color: white;
+        font-size: 25px;
+    }
+    .final8 img{	
+        vertical-align: middle;
+        margin-right: 10px;
+        width: 130px;
+        margin-left: -105px;
+    }
+    .final8 span{	
+        color: #B09E51;
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 950px) {
+    .final3{											
+        background-color: #171717;
+    }
+    .final4{	
+        padding: 100px;
+    }
+    .comida{
+        background-color: #171717;
+        height: 1550px;
+    }
+    .comida_menu{
+        color: #9C9A9A;
+        margin: 0px;
+        padding-left: 50px;
+        font-size: 15px;
+    }
+    .comida_consulta{
+        color: white;
+        font-size: 200%;
+        padding-left: 50px;
+        color: #B09E51;
+    }
+    .comida_tipos{
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .comida_tipos li{
+        float: left;
+        margin: 20px;
+        color: white;
+        list-style: none;
+        font-size: 20px;
+    }
+    .comida_tipos li:hover{
+        color: #B09E51;
+        transition-duration: 0.4s;
+        transition-timing-function: ease-in;
+    }
+    .final5{	
+        padding-left: 50px;
+    }
+    .final6{	
+        float: left;
+    }
+    .final6 p{	
+        color: white;
+        font-size: 18px;
+    }
+    .final6 img{
+        width: 100px;
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+    .final6 span{	
+        color: #B09E51;
+        font-size: 20px;
+    }
+    .final7{	
+        float: left;
+        padding-right: 50px;
+    }
+    .final7 p{	
+        color: white;
+        font-size: 18px;
+    }
+    .final7 img{	
+        vertical-align: middle;
+        margin-right: 10px;
+        width: 100px;
+    }
+    .final7 span{	
+        color: #B09E51;
+        font-size: 20px;
+    }
+    .final8{
+        width: 100%;	
+        background-color: #171717;
+        margin-top: 0px;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 30px;
+        height: 650px;
+    }
+    .final8 p{	
+        color: white;
+        font-size: 18px;
+    }
+    .final8 img{	
+        vertical-align: middle;
+        margin-right: 10px;
+        width: 100px;
+        margin-left: -105px;
+    }
+    .final8 span{	
+        color: #B09E51;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 800px) { 
+    .final3{											
+        background-color: #171717;
+    }
+    .final4{	
+        padding: 100px;
+    }
+    .comida{
+        background-color: #171717;
+        height: 1550px;
+    }
+    .comida_menu{
+        color: #9C9A9A;
+        margin: 0px;
+        padding-left: 50px;
+        font-size: 15px;
+    }
+    .comida_consulta{
+        color: white;
+        font-size: 200%;
+        padding-left: 50px;
+        color: #B09E51;
+    }
+    .comida_tipos{
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .comida_tipos li{
+        float: left;
+        margin: 20px;
+        color: white;
+        list-style: none;
+        font-size: 20px;
+    }
+    .comida_tipos li:hover{
+        color: #B09E51;
+        transition-duration: 0.4s;
+        transition-timing-function: ease-in;
+    }
+    .final5{	
+        padding-left: 50px;
+    }
+    .final6{	
+        float: left;
+    }
+    .final6 p{	
+        color: white;
+        font-size: 18px;
+    }
+    .final6 img{
+        width: 100px;
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+    .final6 span{	
+        color: #B09E51;
+        font-size: 20px;
+    }
+    .final7{	
+        float: left;
+        padding-right: 50px;
+    }
+    .final7 p{	
+        color: white;
+        font-size: 18px;
+    }
+    .final7 img{	
+        vertical-align: middle;
+        margin-right: 10px;
+        width: 100px;
+    }
+    .final7 span{	
+        color: #B09E51;
+        font-size: 20px;
+    }
+    .final8{
+        width: 100%;	
+        background-color: #171717;
+        margin-top: 0px;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 30px;
+        height: 650px;
+    }
+    .final8 p{	
+        color: white;
+        font-size: 18px;
+    }
+    .final8 img{	
+        vertical-align: middle;
+        margin-right: 10px;
+        width: 100px;
+        margin-left: -50px;
+    }
+    .final8 span{	
+        color: #B09E51;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .final3{											
+        background-color: #171717;
+    }
+    .final4{	
+        padding: 100px; 
+    }
+    .comida{
+        background-color: #171717;
+        height: 1550px; 
+    }
+    .comida_menu{
+        color: #9C9A9A;
+        margin: 0px;
+        padding-left: 50px;
+        font-size: 15px;
+    }
+    .comida_consulta{
+        color: white;
+        font-size: 200%;
+        padding-left: 50px;
+        color: #B09E51;
+    }
+    .comida_tipos{
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+    .comida_tipos li{
+        float: left;
+        margin: 20px;
+        color: white;
+        list-style: none;
+        font-size: 18px;
+    }
+    .comida_tipos li:hover{
+        color: #B09E51;
+        transition-duration: 0.4s;
+        transition-timing-function: ease-in;
+    }
+    .final5{	
+        padding-left: 30px; 
+    }
+    .final6{	
+        float: left;  
+    }
+    .final6 p{	
+        color: white;
+        font-size: 18px; 
+    }
+    .final6 img{
+        width: 70px;
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+    .final6 span{	
+        color: #B09E51;
+        font-size: 18px;
+    }
+    .final7{	
+        float: left;
+        padding-right: 50px;
+    }
+    .final7 p{	
+        color: white;
+        font-size: 18px; 
+    }
+    .final7 img{	
+        vertical-align: middle;
+        margin-right: 10px;
+        width: 80px;
+    }
+    .final7 span{	
+        color: #B09E51;
+        font-size: 18px;
+    }
+    .final8{
+        width: 100%;	
+        background-color: #171717;
+        margin-top: -150px;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 30px;
+        height: 650px;
+    }
+    .final8 p{	
+        color: white;
+        font-size: 18px;
+    }
+    .final8 img{	
+        vertical-align: middle;
+        margin-right: 10px;
+        width: 80px;
+        margin-left: 10px;
+    }
+    .final8 span{	
+        color: #B09E51;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .final3{											
+        background-color: #171717;
+    }
+    .final4{	
+        padding: 100px;
+    }
+    .comida{
+        background-color: #171717;
+        height: 1550px;      
+    }
+    .comida_menu{
+        color: #9C9A9A;
+        margin: 0px;
+        padding-left: 50px;
+        font-size: 15px;
+    }
+    .comida_consulta{
+        color: white;
+        font-size: 200%;
+        padding-left: 50px;
+        color: #B09E51;
+    }
+    .comida_tipos{
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+    .comida_tipos li{
+        float: left;
+        margin: 15px;
+        color: white;
+        list-style: none;
+        font-size: 18px;
+    }
+    .comida_tipos li:hover{
+        color: #B09E51;
+        transition-duration: 0.4s;
+        transition-timing-function: ease-in;
+    }
+    .final5{	
+        padding-left: 30px;       
+    }
+    .final6{	
+        float: left;
+        margin-left: -10px;       
+    }
+    .final6 p{	
+        color: white;
+        font-size: 16px;      
+    }
+    .final6 img{
+        width: 65px;
+        vertical-align: middle;
+        margin-right: 10px;       
+    }
+    .final6 span{	
+        color: #B09E51;
+        font-size: 16px;       
+    }
+    .final7{	
+        float: left;
+        padding-right: 50px;
+        margin-left: 40px;       
+    }
+    .final7 p{	
+        color: white;
+        font-size: 16px;
+    }
+    .final7 img{	
+        vertical-align: middle;
+        margin-right: 10px;
+        width: 65px;      
+    }
+    .final7 span{	
+        color: #B09E51;
+        font-size: 16px;   
+    }
+    .final8{
+        width: 100%;	
+        background-color: #171717;
+        margin-top: -250px;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 30px;
+        height: 550px;  
+    }
+    .final8 p{	
+        color: white;
+        font-size: 16px;       
+    }
+    .final8 img{	
+        vertical-align: middle;
+        margin-right: 10px;
+        width: 65px;
+        margin-left: 0px;      
+    }
+    .final8 span{	
+        color: #B09E51;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .final3{											
+        background-color: #171717;   
+    }
+    .final4{	
+        padding: 100px;
+    }
+    .comida{
+        background-color: #171717;
+        height: 1550px;       
+    }
+    .comida_menu{
+        color: #9C9A9A;
+        margin: 0px;
+        padding-left: 50px;
+        font-size: 15px;
+    }
+    .comida_consulta{
+        color: white;
+        font-size: 200%;
+        padding-left: 50px;
+        color: #B09E51;
+    }
+    .comida_tipos{
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+    .comida_tipos li{
+        float: left;
+        margin: 20px;
+        color: white;
+        list-style: none;
+        font-size: 14px;
+    }
+    .comida_tipos li:hover{
+        color: #B09E51;
+        transition-duration: 0.4s;
+        transition-timing-function: ease-in;
+    }
+    .final5{	
+        padding-left: 50px;      
+    }
+    .final6{	
+        float: left;
+        margin-left: -10px;       
+    }
+    .final6 p{	
+        color: white;
+        font-size: 14px;        
+    }
+    .final6 img{
+        width: 55px;
+        vertical-align: middle;
+        margin-right: 10px;       
+    }
+    .final6 span{	
+        color: #B09E51;
+        font-size: 14px;       
+    }
+    .final7{	
+        float: left;
+        padding-right: 50px;
+        margin-left: 30px;        
+    }
+    .final7 p{	
+        color: white;
+        font-size: 14px;        
+    }
+    .final7 img{	
+        vertical-align: middle;
+        margin-right: 10px;
+        width: 55px;       
+    }
+    .final7 span{	
+        color: #B09E51;
+        font-size: 14px;        
+    }
+    .final8{
+        width: 100%;	
+        background-color: #171717;
+        margin-top: -400px;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 30px;
+        height: 500px;        
+    }
+    .final8 p{	
+        color: white;
+        font-size: 14px;        
+    }
+    .final8 img{	
+        vertical-align: middle;
+        margin-right: 10px;
+        width: 55px;
+        margin-left: 0px;       
+    }
+    .final8 span{	
+        color: #B09E51;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+	.comida_menu{
+        margin: 0px;
+        padding-left: 0px;
+        font-size: 10px;
+	}
+	.comida_consulta{
+        font-size: 120%;
+        padding-left: 0px;
+	}
+	.final4{	
+	    padding: 50px;
+	}
+	.comida{
+        background-color: #171717;
+        height: 950px;
+	}
+	.comida_tipos{
+        margin-left: 10px;
+        margin-top: 20px;
+	}
+	.comida_tipos li{
+        float: left;
+        margin: 15px;
+        font-size: 16px;
+        margin-left: 0px;
+	}
+	.final6 p{	
+	    font-size: 12px;
+	}
+	.final6 img{
+        width: 50px;
+        margin-right: 5px;
+        margin-left: 10px;
+	}
+	.final6 span{	
+	    font-size: 12px;
+	}
+	.final5 {	
+	    padding-left: 10px;	
+	}
+	.final7{	
+        float: right;
+        padding-top: 20px;
+        margin-left: -20px;
+	}
+	.final7 p{	
+	    font-size: 12px;	
+	}
+	.final7 img{	
+        width: 50px;
+        margin-right: 5px;	
+	}
+	.final7 span{	
+	    font-size: 12px;	
+	}
+	.final8{	
+        background-color: #171717;
+        margin-top: -50px;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 30px;
+        height: 400px;
+        padding-left: 50px;
+	}
+	.final8 p{	
+		font-size: 12px;
+	}
+	.final8 img{	
+		margin-left: -60px;
+		margin-right: 5px;
+		width: 50px;
+	}
+	.final8 span{	
+		font-size: 12px;	
+	}
+}
+
+@media only screen and (max-width: 425px) {
+	.comida_menu{
+        margin: 0px;
+        padding-left: 0px;
+        font-size: 10px;
+	}
+	.comida_consulta{
+        font-size: 120%;
+        padding-left: 0px;
+	}
+	.final4{	
+	    padding: 50px;
+	}
+	.comida{
+        background-color: #171717;
+        height: 950px;
+	}
+	.comida_tipos{
+        margin-left: 0px;
+        margin-top: 20px;
+	}
+	.comida_tipos li{
+        float: left;
+        margin: 15px;
+        font-size: 14px;
+        margin-left: 0px;
+	}
+	.final6 p{	
+	    font-size: 10px;
+	}
+	.final6 img{
+        width: 40px;
+        margin-right: 5px;
+        margin-left: 10px;	
+	}
+	.final6 span{	
+	    font-size: 10px;
+	}
+	.final5 {	
+	    padding-left: 10px;	
+	}
+	.final7{	
+        float: right;
+        padding-top: 20px;
+	}
+	.final7 p{	
+	    font-size: 10px;	
+	}
+	.final7 img{	
+        width: 40px;
+        margin-right: 5px;
+	}
+	.final7 span{	
+	    font-size: 10px;	
+	}
+	.final8{	
+        background-color: #171717;
+        margin-top: -140px;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 30px;
+        height: 360px;
+        padding-left: 50px;
+	}
+	.final8 p{	
+		font-size: 10px;
+	}
+	.final8 img{	
+		margin-left: -70px;
+		margin-right: 5px;
+		width: 40px;
+	}
+	.final8 span{	
+		font-size: 10px;	
+	}
+}
+
+@media only screen and (max-width: 330px) {
+	.comida_menu{
+        margin: 0px;
+        padding-left: 0px;
+        font-size: 10px;
+	}
+	.comida_consulta{
+        font-size: 120%;
+        padding-left: 0px;
+	}
+	.final4{	
+	    padding: 50px;
+	}
+	.comida{
+        background-color: #171717;
+        height: 950px;
+	}
+	.comida_tipos{
+        margin-left: 10px;
+        margin-top: 20px;
+	}
+	.comida_tipos li{
+        float: left;
+        margin: 15px;
+        font-size: 10px;
+        margin-left: -10px;
+	}
+	.final6 p{	
+    	font-size: 8px;
+	}
+	.final6 img{
+        width: 35px;
+        margin-right: 5px;
+        margin-left: 10px;
+	}
+	.final6 span{	
+	    font-size: 8px;
+	}
+	.final5 {	
+	    padding-left: 10px;	
+	}
+	.final7{	
+        margin-left: -5px;
+        float: right;
+        padding-top: 20px;	
+	}
+	.final7 p{	
+	    font-size: 8px;	
+	}
+	.final7 img{	
+        width: 35px;
+        margin-right: 5px;
+	}
+	.final7 span{	
+	    font-size: 8px;	
+	}
+	.final8{	
+        background-color: #171717;
+        margin-top: -200px;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 30px;
+        height: 350px;
+        padding-left: 70px;
+	}
+	.final8 p{	
+		font-size: 8px;
+	}
+	.final8 img{	
+		margin-left: -70px;
+		margin-right: 5px;
+		width: 35px;
+	}
+	.final8 span{	
+		font-size: 8px;
+	}
+}
+/* TERMINA DIV 3 MENUS*/
+
+
+/* DIV 4 SLIDE EN OTRO ARCHIVO: SLIDE3.CSS Y SLIDE31.CSS*/
+
+/* DIV 5 RESERVAS*/
+.final10{														
+	background-color: #171717;
+	padding: 5%;
+}
+
+.reservas{
+	margin: auto;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.llenar{
+	width: 250px;
+	height: 40px;
+	margin: 0px 100px 30px 0px;
+	border: 1px solid #EBDD99;
+	background-color: transparent;
+	padding: 5px;
+	color: gray;
+}
+
+.llenarmensaje{
+	width: 950px;
+	height: 150px;
+	margin-left: -100px;
+	border:1px solid #EBDD99;
+	background-color: transparent;
+	padding: 5px;
+	color: gray;
+}
+
+.menu51 {
+	font-size: 20px;
+	border:2px solid #B09E51;
+	padding:10px 40px 10px 40px;
+	border-radius:30px 30px 30px 30px;
+	background: transparent;
+	color: white;
+}
+
+.menu51:hover{
+	border:2px solid #B09E51;
+	padding:10px 40px 10px 40px;
+	border-radius:30px 30px 30px 30px;
+	background-color: #B09E51;
+	transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in;
+}
+
+@media only screen and (max-width: 1300px) {
+    .final10{														
+        background-color: #171717;
+        padding: 5%;
+    }
+    .reservas{
+        margin: auto;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .llenar{
+        width: 500px;
+        height: 40px;
+        margin: 0px 0px 0px 0px;
+        border: 1px solid #EBDD99;
+        background-color: transparent;
+        padding: 5px;
+        color: gray;
+    }
+    .llenarmensaje{
+        width: 500px;
+        height: 150px;
+        margin-left: 0px;
+        border:1px solid #EBDD99;
+        background-color: transparent;
+        padding: 5px;
+        color: gray;
+    }
+    .menu51 {
+        font-size: 20px;
+        border:2px solid #B09E51;
+        padding:10px 40px 10px 40px;
+        border-radius:30px 30px 30px 30px;
+        background: transparent;
+        color: white;
+    }
+    .menu51:hover{
+        border:2px solid #B09E51;
+        padding:10px 40px 10px 40px;
+        border-radius:30px 30px 30px 30px;
+        background-color: #B09E51;
+        transition-property: all;
+        transition-duration: 0.4s;
+        transition-timing-function: ease-in;
+    }	
+}
+
+@media only screen and (max-width: 520px) {
+    .reservas{
+        margin: auto;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .llenar{
+        width: 150px;
+        height: 30px;
+        margin: 0px 100px 30px 0px;
+        border: 1px solid #EBDD99;
+        background-color: transparent;
+        padding: 5px;
+        color: gray;
+    }
+    .llenarmensaje{
+        width: 250px;
+        height: 100px;
+        margin-left: 0px;
+        border:1px solid #EBDD99;
+        background-color: transparent;
+        padding: 5px;
+        color: gray;
+    }
+    .menu51 {
+        font-size: 10px;
+        border:2px solid #B09E51;
+        padding:10px 40px 10px 40px;
+        border-radius:30px 30px 30px 30px;
+        background: transparent;
+        color: white;
+    }
+    .menu51:hover{
+        border:2px solid #B09E51;
+        padding:10px 40px 10px 40px;
+        border-radius:30px 30px 30px 30px;
+        background-color: #B09E51;
+        transition-property: all;
+        transition-duration: 0.4s;
+        transition-timing-function: ease-in;
+    }
+}
+/* TERMINA DIV 5 RESERVAS*/
+
+/* DIV 6 GALERIAS*/
+.final11{															
+	background-color: #323232;
+	padding: 5%;
+	border-top: 3px solid #B09E51;
+}
+
+.galeriaplan {
+	width: 100%;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	background-color: #323232;
+}
+
+.galeriaplan img {
+	width: 100%;
+	height: auto;
+	transition: all .4s ease;
+}
+
+.galeriaplan img:hover {
+	width: 100%;
+	height: auto;
+    transform:scale(1) rotate(10deg);
+}
+
+.galeriaplan2 {
+	margin-top: -5px;
+}
+
+.modal {
+	display: none;
+}
+
+.modal:target {
+	display: block;
+	position: fixed;
+	background: rgba(0,0,0,0.8);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+}
+
+.modal h3 {
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	margin: 15px 0;
+}
+
+.imagenplan {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.imagenplan a {
+	color: #fff;
+	font-size: 40px;
+	text-decoration: none;
+	margin: 0;
+}
+
+.imagenplan a:nth-child(2) {
+	margin: 0;
+	height: 100%;
+	flex-shrink: 2;
+}
+
+.imagenplan img {
+	width: 95%;
+	height: auto;
+	max-width: 100%;
+	border: 7px solid #fff;
+	box-sizing: border-box;
+}
+
+.cerrar {
+	display: block;
+	background: transparent;
+	width: 25px;
+	height: auto;
+	float: right;
+	margin-right: 200px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 25px;
+	color: white;
+	padding: 5px;
+	line-height: 25px;
+}
+
+.modal:target {
+	width: 100%;
+	height: 100%;
+}
+
+.modal h3 {
+	font-size: 30px;
+	text-align: center;
+	margin: 15px 0;
+}
+
+.imagenplan {
+	width: 90%;
+	height: 100%;
+	padding-left: 20px;
+	margin: auto;
+}
+
+.imagenplan a {
+	font-size: 40px;
+	text-decoration: none;
+	margin:auto;
+}
+
+.imagenplan a:nth-child(2) {
+	height: auto;
+	margin: auto;
+}
+
+.imagenplan img {
+	width: 100%;
+	height: 100%;
+	max-width: 100%;
+	border: 7px solid #fff;
+	box-sizing: border-box;
+	margin: auto;
+}
+
+.cerrar {
+	width: 25px;
+	height: auto;
+	text-align: center;
+	text-decoration: none;
+	font-size: 25px;
+	color: white;
+	padding: 5px;
+	line-height: 25px;
+	margin: auto;
+}
+
+/* TERMINA DIV 6 GALERIAS*/
+
+
+/* DIV 7 MAPA*/
+.final12{										
+	background-color: #323232;
+	padding: 5%;
+	border-top: 3px solid #B09E51;
+}
+
+.final13{ 													
+	background-color: #323232;
+}
+
+.mapa{	
+	border:0;
+	width: 100%;
+	height: 400px;
+}															
+/* TERMINA DIV 7 MAPA*/
+
+/* DIV 8 CONTACTOS*/
+.final14{													
+	background-color: #323232;
+	height: 200px;
+	padding-top: 50px;
+}
+
+.contactos ul{
+	text-align: center;
+	width: 100%;
+}
+
+.contactos li{	
+	float: left;	
+	color: white;
+	list-style: none;
+	text-align: center;
+	width: 24.99999%;
+}
+
+.final14{										
+	background-color: #323232;
+	height: 200px;
+	padding-top: 30px;
+	margin-left: -30px;
+}
+
+.contactos ul{
+	text-align: center;
+	width: 100%;
+}
+
+.contactos li{	
+	float: left;	
+	color: white;
+	list-style: none;
+	text-align: center;
+	width: 24.99999%;
+	font-size: 18px;
+}
+
+.final15 p{	
+	font-size: 10px;
+}	
+
+@media only screen and (max-width: 700px) {
+    .final14{										
+        background-color: #323232;
+        height: 200px;
+        padding-top: 30px;
+        margin-left: -30px;
+    }
+    .contactos ul{
+        text-align: center;
+        width: 100%;
+    }
+    .contactos li{	
+        float: left;	
+        color: white;
+        list-style: none;
+        text-align: center;
+        width: 24.99999%;
+        font-size: 11px;
+    }
+    .final15 p{	
+        font-size: 10px;
+    }	 
+}
+
+@media only screen and (max-width: 470px) {
+    .final14{										
+        background-color: #323232;
+        height: 200px;
+        padding-top: 30px;
+        margin-left: -30px;
+    }
+    .contactos ul{
+        text-align: center;
+        width: 100%;
+    }
+    .contactos li{	
+        float: left;	
+        color: white;
+        list-style: none;
+        text-align: center;
+        width: 24.99999%;
+        font-size: 8px;
+    }
+    .final15 p{	
+        font-size: 10px;
+    }	 
+}														
+/* TERMINA DIV 8 CONTACTOS*/
+
+/* DIV 9 FINAL*/
+.final15{														
+	background-color: #171717;
+	height: 50px;
+	border-top: 1px solid #B09E51;
+}
+
+.final15 p{	
+	color:gray;
+	text-align: center;
+	margin-top: 20px;
+}														
+
+/* TERMINA DIV 9 FINAL*/
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
