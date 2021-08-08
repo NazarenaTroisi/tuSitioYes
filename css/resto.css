@@ -10,7 +10,7 @@ body{
 }
 
 .fondo1{											/* PRIMER DIV CON MENU*/
-	background-image: url(../img/resto1.jpg);
+	background-image: url(./img/resto1.jpg);
 	background-size: 1370px;
 	background-repeat: no-repeat;
 	height: 625px;
@@ -151,7 +151,7 @@ body{
 
 @media only screen and (max-width: 1300px) { 
     .fondo1{											
-        background-image: url(../img/resto1.jpg);
+        background-image: url(./img/resto1.jpg);
         background-size: 1300px;
         background-repeat: no-repeat;
         height: 550px;
@@ -600,7 +600,7 @@ body{
 }																/* TERMINA PRIMER DIV CON MENU*/ 
 
 .fondo2{														/*  DIV 2 FOTO Y DESCRIPCION*/ 
-	background-image: url(../img/resto2.png);
+	background-image: url(./img/resto2.png);
 	background-size: auto;
 	background-repeat: no-repeat;
 	height: 625px;
@@ -636,7 +636,7 @@ body{
 
 @media only screen and (max-width: 1300px) { 	
     .fondo2{										
-        background-image: url(../img/resto2.png);
+        background-image: url(./img/resto2.png);
         background-size: auto;
         background-repeat: no-repeat;
         height: 750px;
@@ -674,7 +674,7 @@ body{
 
 @media only screen and (max-width: 1100px) { 	
     .fondo2{										
-        background-image: url(../img/resto2.png);
+        background-image: url(./img/resto2.png);
         background-size: auto;
         background-repeat: no-repeat;
         height: 750px;
@@ -712,7 +712,7 @@ body{
 
 @media only screen and (max-width: 950px) { 
     .fondo2{										
-        background-image: url(../img/resto2.png);
+        background-image: url(./img/resto2.png);
         background-size: auto;
         background-repeat: no-repeat;
         height: 750px;
@@ -754,7 +754,7 @@ body{
 
 @media only screen and (max-width: 800px) { 
     .fondo2{										
-        background-image: url(../img/resto2.png);
+        background-image: url(./img/resto2.png);
         background-size: auto;
         background-repeat: no-repeat;
         height: 750px;
@@ -795,7 +795,7 @@ body{
 
 @media only screen and (max-width: 670px) { 	
     .fondo2{										
-        background-image: url(../img/resto2.png);
+        background-image: url(./img/resto2.png);
         background-size: auto;
         background-repeat: no-repeat;
         height: 725px;
@@ -833,7 +833,7 @@ body{
 
 @media only screen and (max-width: 570px) { 	
     .fondo2{										
-        background-image: url(../img/resto2.png);
+        background-image: url(./img/resto2.png);
         background-size: auto;
         background-repeat: no-repeat;
         height: 625px;
@@ -876,7 +876,7 @@ body{
 
 @media only screen and (max-width: 420px) { 
     .fondo2{										
-        background-image: url(../img/resto2.png);
+        background-image: url(./img/resto2.png);
         background-size: auto;
         background-repeat: no-repeat;
         height: 550px;
@@ -917,7 +917,7 @@ body{
 
 	@media only screen and (max-width: 320px) { 
     .fondo2{										
-        background-image: url(../img/resto2.png);
+        background-image: url(./img/resto2.png);
         background-size: auto;
         background-repeat: no-repeat;
         height: 425px;
