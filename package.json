@@ -1,0 +1,19 @@
+{
+  "name": "tusitioyes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NazarenaTroisi/tuSitioYes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NazarenaTroisi/tuSitioYes/issues"
+  },
+  "homepage": "https://github.com/NazarenaTroisi/tuSitioYes#readme"
+}
