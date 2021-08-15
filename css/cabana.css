@@ -1191,8 +1191,9 @@ hr{
     text-decoration: none;
     font-size: 22px;
     border:3px solid white;
-    margin-left: 160px; 
+    margin: auto; 
     font-family: 'Didact Gothic', sans-serif;
+    width: 25%;
 }
 
 .topnav2 a:hover {
