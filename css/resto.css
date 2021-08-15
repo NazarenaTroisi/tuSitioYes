@@ -11,7 +11,7 @@ body{
 
 .fondo1{											/* PRIMER DIV CON MENU*/
 	background-image: url(../img/resto1.jpg);
-	background-size: 1370px;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	height: 625px;
 	background-attachment: fixed;
@@ -151,7 +151,6 @@ body{
 
 @media only screen and (max-width: 1300px) { 
     .fondo1{											
-        background-size: 1300px;
         background-repeat: no-repeat;
         height: 550px;
         background-attachment: fixed;
@@ -268,7 +267,6 @@ body{
 }
 @media only screen and (max-width: 950px) { 
     .fondo1{									
-        background-size: 1370px;
         height: 625px;
     }
     .datos0{
@@ -389,7 +387,6 @@ body{
 }
 @media only screen and (max-width: 800px) { 
     .fondo1{									
-        background-size: 1370px;
         height: 625px;
     }
     .datos0{
