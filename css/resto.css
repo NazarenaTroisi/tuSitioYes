@@ -152,7 +152,7 @@ body{
 @media only screen and (max-width: 1300px) { 
     .fondo1{											
         background-repeat: no-repeat;
-        height: 550px;
+        height: 500px;
         background-attachment: fixed;
     }
     .datos0{
@@ -267,7 +267,7 @@ body{
 }
 @media only screen and (max-width: 950px) { 
     .fondo1{									
-        height: 625px;
+        height: 420px;
     }
     .datos0{
         height: 50px;
@@ -332,9 +332,8 @@ body{
         transition-timing-function: ease-in;
     }
     .menu4 {
-        margin-top: 100px;
         margin-left: 50px;
-        font-size: 25px;
+        font-size: 20px;
     }
     .menu4 h1{
         color: white;
@@ -386,8 +385,11 @@ body{
     }
 }
 @media only screen and (max-width: 800px) { 
+    .br{									
+       display: none;
+    }
     .fondo1{									
-        height: 625px;
+        height: 350px;
     }
     .datos0{
         height: 50px;
@@ -449,16 +451,16 @@ body{
         transition-timing-function: ease-in;
     }
     .menu4 {
-        margin-top: 100px;
         margin-left: 50px;
-        font-size: 25px;
+        font-size: 18px;
+        margin-top: 0px;
     }
     .menu4 h1{
         color: white;
     }
     .menu4 h2{
         color: white;
-        font-size: 25px;
+        font-size: 16px;
     }
     .menu4 li{
         float: left;
@@ -502,7 +504,7 @@ body{
         transition-timing-function: ease-in;
     }
 }
-@media only screen and (max-width: 520px) { 
+@media only screen and (max-width: 670px) { 
     .datos1{
         margin-right: 10px;
         margin-top: 20px;
@@ -521,7 +523,6 @@ body{
 		padding:5px 30px 5px 30px;
 	}
 	.menu4 {
-		margin-top: 50px;
 		margin-left: 10px;
 		font-size: 10px;
 	}

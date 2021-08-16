@@ -530,6 +530,30 @@ body{
 	color: white;
 	font-size:30px;
 }
+@media only screen and (min-width: 1320px) { 
+    .img2{
+        background-image: url(../img/parque2.jpg);
+        height: 750px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 1660px;
+        margin-top: -25px;
+        position: relative;
+    }
+}
+@media only screen and (max-width: 1298px) { 
+    .img3{
+        background-image: url(../img/parque3.png);
+        height: 650px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 1350px;
+        margin-top: -125px;
+        top: 0;
+        position: relative;
+    }
+    
+}
 
 @media only screen and (max-width: 1270px) { 
     .img2{
@@ -556,7 +580,7 @@ body{
 
 @media only screen and (max-width: 1020px) { 
     .img2{
-        background-image: url(./img/parque2.jpg);
+        background-image: url(../img/parque2.jpg);
         height: 750px;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -720,7 +744,7 @@ body{
 	height: 650px;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: 1350px;
+	background-size: 1660px;
 	margin-top: -125px;
 	top: 0;
 	position: relative;

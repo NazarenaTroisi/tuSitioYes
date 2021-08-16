@@ -187,6 +187,7 @@ audio{
   overflow: hidden;
   border-top: 2px solid gray;
   border-bottom: 2px solid gray;
+  width: 100%;
 }
 
 .topnav a {
@@ -198,8 +199,9 @@ audio{
   text-decoration: none;
   font-size: 22px;
   border:3px solid white;
-  margin-left: 160px; 
+  margin: auto; 
   font-family: 'Didact Gothic', sans-serif;
+  width: 25%;
 }
 
 .topnav a:hover {
